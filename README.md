@@ -10,14 +10,18 @@ This Python program allows users to manage recipes using either MongoDB or Dynam
   - `pymongo`
   - `ipywidgets`
   - `IPython`
-
+  
 ## File Structure
-- `main.py`: Main Python script containing the recipe management system logic.
-- `recipes.csv`: Sample CSV file containing recipe data for demonstration purposes.
-- `README.md`: This file, providing instructions and information about the program.
 
-## Commands to Run
-1. **Run the Program**:
+- `README.md`: This file, providing instructions and information about the program.
+- `main.py`: Main Python script containing the recipe management system logic.
+- `recipes.zip`: Compressed file containing the `recipes.csv` file. Extract this file to access the sample recipe data.
+
+### Run the Program
+1. Extract the `recipes.zip` file to access the `recipes.csv` file.
+2. Open a terminal or command prompt.
+3. Navigate to the directory containing `main.py` and `recipes.csv`.
+4. Run the program using the following command:
    ```bash
    python main.py
 
